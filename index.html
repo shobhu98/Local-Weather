@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+<div class="box">
+    <div class="box1">
+
+
+            <p class="lw"><i class="far fa-sun  l"></i>Local Weather</p>
+
+    </div>
+    <div class="box2">
+
+        <form onsubmit="return false" class="form">
+            <label id="pl" ><input id="place"   type="text" placeholder="Enter the location" required>
+            </label>
+            <button type="submit" onclick="getData()">Click to Enter</button>
+
+
+        </form>
+        <table id="tbc">
+            <tr>
+                <th>Place</th>
+                <th>Min Temp(&#8451)</th>
+                <th>Max Temp(&#8451)</th>
+                <th>Humidity(%)</th>
+            </tr>
+            <tr>
+                <td id="plac" class="tada"></td>
+                <td id="min" class="tada"></td>
+                <td id="max" class="tada"></td>
+                <td id="humid" class="tada"></td>
+
+            </tr>
+            <tr>
+
+
+            </tr>
+        </table>
+    </div>
+    <div class="box3">
+        <p id="date"></p>
+        <p class="dev"> DEVELOPED BY SHOBHIT TIWARI</p>
+    </div>
+
+
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

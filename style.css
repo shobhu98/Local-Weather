@@ -1,0 +1,110 @@
+body{
+    min-width: 100%;
+background-color: grey;
+    margin: 0;
+}
+.box{
+    display: block;
+}
+
+.box1{
+    height: 20vh;
+    background-color: black;
+    /*background-color: coral;*/
+
+}
+.box2{
+  background-color: black;
+    height: 70vh;
+}
+.box3{
+    background-color: orange;
+}
+.box3{
+    height: 10vh;
+}
+.lw{
+
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.l{
+    color: white;
+}
+
+@media (min-width: 700px) {
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .box1{
+        height: 20vh;
+        width: 100%;
+    }
+    .box2{
+        height: 70vh;
+        width: 100%;
+    }
+    .box3{
+        height: 10vh;
+        width: 100%;
+    }
+    .box3{
+        background-color: orange;
+    }
+
+
+}
+
+@media (min-width: 1000px) {
+    .box{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+#tbc{
+    background-color: white;
+    color: black;
+    margin: 25px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    width: 206px;
+    height: 18px;
+}
+
+.tada{
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Agency FB";
+}
+
+#date{
+    color: darkblue;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.dev{
+    color: darkblue;
+    margin: 0;
+    text-align: center;
+
+}
