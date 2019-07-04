@@ -15,12 +15,12 @@ function getData() {
             // document.createElement('p').innerHTML=data.main.temp;
             let x =Math.round(data.main.temp_min-273.99999999999999999999999999);
             let y=Math.round(data.main.temp_max-273);
-            let place=data.name.toString();
+            let place=data.name;
             let z=data.main.humidity;
             document.getElementById('min').innerHTML=x;
             document.getElementById('max').innerHTML=y;
             document.getElementById('humid').innerHTML=z;
-            document.getElementById('place').innerHTML=place;
+            document.getElementById('plac').innerText=place;
         })
     });
 
