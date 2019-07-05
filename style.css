@@ -1,6 +1,9 @@
 body{
     min-width: 100%;
 background-color: grey;
+    background-image: url("pexels-photo-414659.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
 }
 .box{
@@ -9,12 +12,12 @@ background-color: grey;
 
 .box1{
     height: 20vh;
-    background-color: black;
+    background-color:#323232;
     /*background-color: coral;*/
 
 }
 .box2{
-  background-color: black;
+  background-color:#323232;
     height: 70vh;
 }
 .box3{
